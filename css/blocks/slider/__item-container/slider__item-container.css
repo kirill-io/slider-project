@@ -1,0 +1,6 @@
+.slider__item-container {
+  background: var(--color-bg-white);
+  border-radius: 18px;
+  height: 100%;
+  overflow: hidden;
+}

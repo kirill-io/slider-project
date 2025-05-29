@@ -6,5 +6,15 @@
 @import url("../blocks/slider/__header/slider__header.css");
 @import url("../blocks/slider/__arrow-button/slider__arrow-button.css");
 @import url("../blocks/slider/__title/slider__title.css");
-
+@import url("../blocks/slider/__list/slider__list.css");
+@import url("../blocks/slider/__item/slider__item.css");
+@import url("../blocks/slider/__item-container/slider__item-container.css");
+@import url("../blocks/slider/__image-wrap/slider__image-wrap.css");
+@import url("../blocks/slider/__image/slider__image.css");
+@import url("../blocks/slider/__text-wrap/slider__text-wrap.css");
+@import url("../blocks/slider/__subtitle/slider__subtitle.css");
+@import url("../blocks/slider/__text/slider__text.css");
+@import url("../blocks/slider/__dots/slider__dots.css");
+@import url("../blocks/slider/__dot/slider__dot.css");
 @import url("../blocks/slider/__arrow-button/_type/slider__arrow-button_type_left.css");
+@import url("../blocks/slider/__dot/_active/slider__dot_active.css");

@@ -1,0 +1,9 @@
+.slider__text {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  font: inherit;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

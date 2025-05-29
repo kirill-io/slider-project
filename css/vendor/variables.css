@@ -9,6 +9,10 @@
   --color-bg-gray: #f0f2ec;
   --color-bg-button: rgba(203, 209, 191, 0.6);
   --color-bg-button-hover: #b7bdab;
+  --color-bg-item: rgba(255, 255, 255, 0.35);
+  --color-bg-item-hover: rgba(255, 255, 255, 0.5);
   --color-title: #14170e;
   --color-text: #32352c;
+  --color-dot: #dfe5d3;
+  --color-dot-hover: #ccd1c3;
 }

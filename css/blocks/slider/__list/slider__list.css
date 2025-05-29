@@ -1,0 +1,8 @@
+.slider__list {
+  align-self: start;
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

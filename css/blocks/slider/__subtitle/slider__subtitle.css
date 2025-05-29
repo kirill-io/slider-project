@@ -1,0 +1,5 @@
+.slider__subtitle {
+  color: var(--color-title);
+  font: var(--primary-font-size-l) var(--primary-font-semibold);
+  margin: 0;
+}

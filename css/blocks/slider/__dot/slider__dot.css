@@ -1,0 +1,7 @@
+.slider__dot {
+  background: var(--color-dot);
+  border-radius: 10px;
+  cursor: pointer;
+  height: 6px;
+  width: 53.5px;
+}

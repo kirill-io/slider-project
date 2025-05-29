@@ -7,7 +7,7 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  font-size: var(--primary-font-size-m) var(--primary-font-regular);
+  font: var(--primary-font-size-m) var(--primary-font-regular);
   gap: 36px;
   line-height: 1.3;
   overflow: hidden;
