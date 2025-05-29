@@ -8,6 +8,7 @@ export default class Slider {
       dotSelector,
       dotActiveClass,
       animationDelay,
+      autoplayInterval,
     }
   ) 
   {
@@ -18,9 +19,11 @@ export default class Slider {
     this._dots = document.querySelectorAll(dotSelector);
     this._dotActiveClass = dotActiveClass;
     this._animationDelay = animationDelay;
+    this._autoplayInterval = autoplayInterval;
     this._isTransitioning = false;
     this.#init();
     this.#setEventListeners();
+    this.#startAutoplay();
   }
 
   #calculateSlideWidth() {
@@ -117,6 +120,15 @@ export default class Slider {
         this.#updateSlider();
       });
     });
+  }
+
+  #startAutoplay() {
+    setInterval(() => {
+      if (this._isTransitioning) return;
+      this._isTransitioning = true;
+      this._currentIndex++;
+      this.#updateSlider();
+    }, this._autoplayInterval);
   }
 
   #init() {

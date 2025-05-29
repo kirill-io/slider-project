@@ -6,4 +6,5 @@ export const sliderConfig = {
   dotSelector: '.slider__dot',
   dotActiveClass: 'slider__dot_active',
   animationDelay: 400,
+  autoplayInterval: 3000,
 };
