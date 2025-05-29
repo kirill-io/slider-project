@@ -14,3 +14,9 @@
   padding: 48px 36px 59px;
   width: 1470px;
 }
+
+@media screen and (max-width: 1600px) {
+  .slider {
+    width: 91.875%;
+  }
+}
