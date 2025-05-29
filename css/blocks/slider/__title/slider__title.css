@@ -1,0 +1,6 @@
+.slider__title {
+  color: var(--color-title);
+  font: var(--secondary-font-size-m) var(--secondary-font-regular);
+  line-height: 1.2;
+  margin: 0;
+}

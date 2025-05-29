@@ -1,0 +1,3 @@
+.slider__arrow-button_type_left .slider__arrow-button-image {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,16 @@
+.slider {
+  align-items: center;
+  background: var(--color-bg-gray);
+  border-radius: 50px;
+  box-shadow: 1px 3px 10px rgba(156, 159, 151, 0.6);
+  box-sizing: border-box;
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  font-size: var(--primary-font-size-m) var(--primary-font-regular);
+  gap: 36px;
+  line-height: 1.3;
+  overflow: hidden;
+  padding: 48px 36px 59px;
+  width: 1470px;
+}
