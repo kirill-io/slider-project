@@ -1,0 +1,8 @@
+:root {
+  --primary-font-regular: "Inter-Regular", "Helvetica Neue", sans-serif;
+  --primary-font-semibold: "Inter-SemiBold", "Helvetica Neue", sans-serif;
+  --secondary-font-regular: "Inknut-Antiqua-Regular", "Georgia", serif;
+  --primary-font-size-m: 16px;
+  --primary-font-size-l: 20px;
+  --secondary-font-size-m: 60px;
+}
